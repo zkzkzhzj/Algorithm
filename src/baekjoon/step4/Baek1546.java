@@ -34,3 +34,5 @@ public class Baek1546 {
         br.close();
     }
 }
+
+// 단계별 풀이 그만두기(내가 풀 문제들이 아님) - solved.ac 사용하여 풀자
