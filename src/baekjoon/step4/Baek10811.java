@@ -6,9 +6,10 @@ public class Baek10811 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String basketAndCount = br.readLine();
-        // 하단 StringTokenizer 참고한 링크 : https://www.acmicpc.net/source/88080359
-        // split 으로 잘라서 가져왔지만 StringTokenizer 를 사용하면 토큰(기본적으로 공백, 띄어쓰기)을 기준으로 잘라서 가져올수있다
+        // 코드 피드백 : StringTokenizer 클래스를 사용하면 spilit 으로 자르지않고 다음 값을 가져올 수 있다
+        // StringTokenizer 를 사용하면 토큰(기본적으로 공백, 띄어쓰기)을 기준으로 잘라서 가져올수있다
         // StringTokenizer st = new StringTokenizer(br.readLine()); st.nextToken(); 으로 사용
+        // 참고 : https://www.acmicpc.net/source/88080359
         int[] baskets = new int[Integer.parseInt(basketAndCount.split(" ")[0])];
         int count = Integer.parseInt(basketAndCount.split(" ")[1]);
 
